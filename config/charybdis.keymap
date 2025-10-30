@@ -63,10 +63,10 @@
         Base {
             label = "Base";
             bindings = <
-              &kp       Q  &kp       W  &kp        F  &kp        P  &kp B        &kp J  &kp        L  &kp        U  &kp       Y  &kp  SEMICOLON  
-              &hml LGUI A  &hml LALT R  &hml LCTRL S  &hml LSHFT T  &kp G        &kp M  &hml RSHFT N  &hml RCTRL E  &hml RALT I  &hml RGUI O  
-              &lt   POI Z  &kp       X  &kp        C  &kp        D  &kp V        &kp K  &kp        H  &kp    COMMA  &kp     DOT  &lt POI SLASH
-                                        &lt MED ESC  &lt NAV SPACE  &sl NUFU     &lt SYM ENTER &kp BACKSPACE
+              &kp       Q  &kp       W  &kp        F  &kp        P  &kp B        &kp J          &kp        L  &kp        U  &kp       Y  &kp  SEMICOLON  
+              &hml LGUI A  &hml LALT R  &hml LCTRL S  &hml LSHFT T  &kp G        &kp M          &hml RSHFT N  &hml RCTRL E  &hml RALT I  &hml RGUI O  
+              &lt   POI Z  &kp       X  &kp        C  &kp        D  &kp V        &kp K          &kp        H  &kp    COMMA  &kp     DOT  &lt POI SLASH
+                                        &lt MED ESC  &lt NAV SPACE  &sl NUFU     &lt SYM ENTER  &kp BACKSPACE
             >;
         };
 
@@ -93,10 +93,10 @@
         Navigation {
             label = "Navigation";
             bindings = <
-                         &trans  &trans  &trans  &trans  &trans         &trans    &trans         &kp TAB      &trans    &kp DELETE
-                         &trans  &trans  &trans  &trans  &trans         &kp LEFT  &kp DOWN       &kp UP       &kp RIGHT &kp BACKSPACE
-                         &trans  &trans  &trans  &trans  &trans         &kp HOME  &kp PAGE_DOWN  &kp PAGE_UP  &kp END   &kp INS
-                                         &trans  &trans  &trans         &trans    &trans
+                &kp TAB     &trans      &trans      &trans      &trans         &kp K_AGAIN  &kp K_PASTE &kp K_COPY      &kp K_CUT   &kp K_UNDO
+                &kp LGUI    &kp LALT    &kp LCTRL   &kp LSHFT   &trans         &kp CAPSLOCK &kp LEFT    &kp DOWN        &kp UP      &kp RIGHT
+                &trans      &trans      &trans      &trans      &trans         &kp INS      &kp HOME    &kp PAGE_DOWN   &kp PAGE_UP &kp END
+                                        &trans      &trans      &trans         &kp ENTER    &kp BACKSPACE
             >;
         };
 
