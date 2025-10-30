@@ -37,7 +37,7 @@ layers:
   - {t: '$$mdi:keyboard-return$$', h: Symbol}
   - {t: '$$mdi:backspace$$', type: backspace}
   Numeral/Function:
-  - {t: ▽, type: trans}
+  - PRINTSCREEN
   - F7
   - F8
   - F9
